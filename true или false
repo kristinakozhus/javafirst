@@ -1,0 +1,14 @@
+int a = 4;
+int b = 5;
+boolean result;
+result = a < b;  // истина result = a > b;  // ложь
+result = a <= 4; // меньше или равно - истина result = b >= 6;  // больше или равно - ложь
+result = a == b;  // равно - ложь
+result = a != b;  // неравно - истина
+result = a > b || a < b;  // логическое ИЛИ - истина
+result = 3 < a && a < 6;  // логическое И - истина
+result = !result;  // Логическое НЕ - ложь
+if (a == b)
+    System.out.println("Another line Wow!");
+else
+    System.out.println("Double rainbow!");
