@@ -1,0 +1,8 @@
+boolean b = false;
+b = true;
+
+boolean toBe = false;
+b = toBe || !toBe;
+if (b) {
+    System.out.println(toBe);
+}
